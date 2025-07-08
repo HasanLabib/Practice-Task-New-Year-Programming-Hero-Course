@@ -30,7 +30,7 @@
 }
 
 .banner {
-  background-image: url("/new-year-offer-resources/images/Banner Image.png");
+  background-image: url("new-year-offer-resources/images/Banner Image.png");
   background-size: cover;
   width: 1320px;
   height: 600px;
