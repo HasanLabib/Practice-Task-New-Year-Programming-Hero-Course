@@ -1,0 +1,435 @@
+.merriweather-regular {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Share resources */
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.white-text {
+  color: white;
+}
+
+.color-orange {
+  color: #ff0000;
+}
+.color-black {
+  color: #070211;
+}
+
+.banner {
+  background-image: url("/new-year-offer-resources/images/Banner Image.png");
+  background-size: cover;
+  width: 1320px;
+  height: 600px;
+  border-radius: 16px;
+  border: none;
+  position: relative;
+  margin: 50px 140px 120px 140px;
+  justify-content: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.new-year-greetings {
+  font-size: 32px;
+  font-weight: normal;
+}
+.new-year-msg {
+  font-size: 72px;
+  font-weight: bolder;
+}
+.discount {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.off65 {
+  font-size: 88px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+.offer-msg {
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-category {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+
+.party {
+  background-image: url("/new-year-offer-resources/images/Vectorrr.png");
+  background-size: cover;
+  width: 1320px;
+  height: 600px;
+  position: relative;
+  margin: 120px 140px;
+  flex-direction: row;
+}
+
+.party-overlay {
+  background-color: rgba(0, 0, 0, 0.358);
+  justify-content: space-evenly;
+  display: flex;
+  gap: 40px;
+}
+.img-midnight,
+.content-midnight-party {
+  align-content: center;
+  text-align: left;
+  padding: 125px 95px 140px 126px;
+  color: white;
+}
+
+.content-midnight-party .join {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.join:hover {
+  text-decoration: underline;
+  color: #ff0000;
+  cursor: pointer;
+}
+.welcome-midnight-party,
+.party-description {
+  margin-bottom: 24px;
+}
+.welcome-midnight-party {
+  font-size: 64px;
+  font-weight: 900;
+}
+.party-description {
+  font-size: 18px;
+  font-weight: normal;
+}
+.img-midnight {
+  padding: 68px 138px 68px 0;
+}
+
+.btn-Join-party {
+  width: 167px;
+  height: 56px;
+  border-radius: 8px;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #ff0000;
+  text-transform: uppercase;
+  color: white;
+}
+
+.party-time-container {
+  background-image: linear-gradient(#ff00002d, #ff000000);
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 482px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 120px 140px;
+}
+
+.party-time {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 48px;
+}
+.party-time ul {
+  list-style: none;
+}
+.offer-comimg-section {
+  display: flex;
+  margin: 120px 140px;
+  /* width: 1320px;
+  height: 463px; */
+  justify-content: center;
+  align-content: center;
+}
+.offer-comimg-section .image-container img {
+  border: 15px solid #ff0000;
+  border-radius: 300px;
+  padding: 50px;
+}
+.offer-coming-container {
+  justify-content: center;
+  align-content: center;
+}
+
+.offer-coming-container h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.offer-coming-container .coming-soon {
+  font-size: 48px;
+  font-weight: 900;
+}
+.offer-coming-container .coming-soon-description {
+  font-size: 20px;
+  font-weight: 400;
+  width: 393px;
+  height: 128px;
+}
+.year-msg-container {
+  justify-content: center;
+  align-content: center;
+}
+.year-msg-container .YR-2024 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.offer-dark {
+  color: rgba(8, 3, 18, 0.608);
+}
+
+.year-msg-container .YR-Description {
+  font-size: 20px;
+  font-weight: 400;
+  width: 276px;
+  height: 96px;
+  margin-bottom: 43px;
+}
+.image-container {
+  margin: 120px 118px 120px 70px;
+  justify-content: center;
+  align-content: center;
+}
+
+.holiday-sale-banner {
+  margin: 120px 140px;
+  width: 1320px;
+  height: 987px;
+  justify-content: center;
+  align-content: center;
+}
+.img-sale-image-container {
+  /* background-image: url("/new-year-offer-resources/images/Rectangle 2.png");
+  background-size: cover;
+  width: 1320px;
+  height: 230px;
+  position: relative;
+  background-repeat: no-repeat;
+  display: flex; */
+  display: flex;
+  float: right;
+  bottom: 0;
+  /* right: 0; */
+
+  /* flex-direction: column; */
+  /* top: 40px; */
+}
+.img-sale-image-container div {
+  justify-content: center;
+  align-content: center;
+  gap: 100px;
+}
+.holiday-description-container {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin-bottom: 64px;
+}
+.sale-sub-title {
+  font-size: 24px;
+  font-weight: 500;
+}
+.sale-title {
+  font-size: 72px;
+  font-weight: 900;
+}
+.sale-description {
+  font-size: 20px;
+  font-weight: 500;
+  width: 1068px;
+  height: 96px;
+}
+.image-positioning {
+  position: relative;
+  top: 100px;
+  z-index: -10;
+}
+.sale-img-item1 {
+  position: absolute;
+  left: 50px;
+  bottom: 20px;
+  z-index: 10;
+  justify-content: center;
+  align-content: center;
+}
+
+/* portfolio section */
+.portfolio-container {
+  margin: 120px 140px;
+  width: 1320px;
+  height: 1163px;
+}
+.portfolio-sub-heading {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.portfolio-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.portfolio-description {
+  font-size: 20px;
+  font-weight: 400;
+  margin-left: 0px;
+  margin-bottom: 48px;
+  max-width: 896px;
+  max-height: 64px;
+}
+.newsletter-container {
+  height: 616px;
+  width: 1320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  background-color: #ff000014;
+  margin: 120px 140px;
+}
+.newsletter-icon {
+  margin-bottom: 40px;
+}
+.newsletter-title {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+.newsletter-description {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 48px;
+  width: 896px;
+  height: 64px;
+}
+.newsletter-btn-container {
+  display: flex;
+  gap: none;
+}
+.email {
+  border-radius: 45px 0px 0px 45px;
+  height: 71px;
+  width: 438px;
+  border: none;
+}
+.subscription {
+  border-radius: 0px 45px 45px 0px;
+  width: 210px;
+  height: 72px;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #ff0000;
+  color: white;
+}
+/* .subscription::placeholder {
+  
+} */
+
+.footer-container {
+  background-color: #070211;
+  width: 1600px;
+  height: 609px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-item1,
+.footer-item2,
+.footer-item3 {
+  display: flex;
+}
+/* .footer-item1 {
+  margin: 140px 140px 50px 1140px;
+  justify-content: space-around;
+} */
+.footer-item1 {
+  margin: 48px 24px 48px;
+  gap: 230px;
+  display: flex;
+  gap: 560px;
+  justify-content: center;
+  align-content: center;
+}
+.footer-item3 {
+  display: flex;
+  gap: 880px;
+  justify-content: center;
+  align-content: center;
+}
+
+.unsubscribe {
+  margin: 50px 40px 120px 0px;
+}
+
+.copyright {
+  margin: 50px 0px 120px 140px;
+}
+
+.footer-image-container {
+  display: flex;
+  gap: 24px;
+}
+.telInk {
+  display: flex;
+  flex-direction: column;
+}
+.telInk a {
+  color: white;
+  text-decoration: none;
+}
+
+.telInk a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
+.address {
+  color: white;
+}
+.footer-item3 {
+  color: white;
+  justify-content: space-between;
+  align-content: center;
+}
